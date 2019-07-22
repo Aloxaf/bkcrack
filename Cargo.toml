@@ -11,7 +11,7 @@ license = "zlib"
 edition = "2018"
 
 [dependencies]
-chrono = "0.4.6"
+chrono = "0.4.7"
 env_logger = "0.5.13"
 failure = "0.1.2"
 lazy_static = "1.1.0"
