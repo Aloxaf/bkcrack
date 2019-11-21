@@ -18,6 +18,6 @@ lazy_static = "1.1.0"
 flate2 = "1.0"
 log = "0.4.8"
 podio = "0.1.6"
-rayon = "1.1.0"
+rayon = "1.2.1"
 structopt = "0.3.4"
 zip = { git = " https://github.com/Aloxaf/zip-rs/", branch = "rbkcrack" }
