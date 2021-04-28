@@ -1,0 +1,17 @@
+version: 2
+updates:
+- package-ecosystem: cargo
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "21:00"
+  open-pull-requests-limit: 10
+  assignees:
+  - Aloxaf
+  ignore:
+  - dependency-name: env_logger
+    versions:
+    - 0.8.2
+  - dependency-name: flate2
+    versions:
+    - 1.0.19
